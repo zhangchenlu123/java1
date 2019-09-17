@@ -16,7 +16,7 @@ fegin:
   hystrix:
     enabled: true
 
-
+---
 #配置test环境
 spring:
  profiles: test

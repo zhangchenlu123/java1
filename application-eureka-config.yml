@@ -16,6 +16,7 @@ eureka:
     service-url:
       defaultZone: http://eureka8400.com/eureka
 
+---
 #配置test环境
 spring:
  profiles: test
