@@ -1,6 +1,6 @@
 #配置dev环境
 server:
-  port: 8084
+  port: 8761
 
 spring:
   profiles: dev
@@ -28,7 +28,7 @@ eureka:
 ---
 #配置test环境
 server:
-  port: 8085
+  port: 8762
 
 spring:
   profiles: test
