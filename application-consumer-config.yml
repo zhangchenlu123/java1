@@ -1,0 +1,37 @@
+#配置dev环境
+spring:
+ profiles: dev
+ application:
+  name: provider-consumer
+
+server:
+  port: 7070
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8400.com/eureka
+
+fegin:
+  hystrix:
+    enabled: true
+
+
+#配置test环境
+spring:
+ profiles: test
+ application:
+  name: provider-consumer
+
+server:
+  port: 9090
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8500.com/eureka
+
+fegin:
+  hystrix:
+    enabled: true
+
