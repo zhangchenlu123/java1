@@ -2,7 +2,7 @@
 spring:
  profiles: dev
  application:
-  name: provider-consumer
+  name: provider-config
 
 server:
   port: 7070
@@ -21,7 +21,7 @@ fegin:
 spring:
  profiles: test
  application:
-  name: provider-consumer
+  name: provider-config
 
 server:
   port: 9090
